@@ -16,11 +16,12 @@ const Home = () => {
       <div class="part-link">
         <a
           class="more-link"
-          href="https://freehtml5.co"
-          title="What a cute template"
-          target="_self"
+          href="https://docs.google.com/forms/d/1X8ucvsn4vourY4t8z0ShQtSRorpH9NifVxrYSYa2ArE/prefill"
+          title="Donner ma réponse à votre invitation"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Répondre
+          Répondre à l'invitation
         </a>
       </div>
     </Container>
