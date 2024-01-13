@@ -4033,7 +4033,7 @@ header.header nav,
 
   .main-wrap {
     float: left;
-    width: 69%;
+    width: 100%;
   }
   .main-wrap .main-archive {
     width: 100%;
@@ -4101,7 +4101,12 @@ header.header nav,
     max-width: 1360px;
     margin: 0 auto;
   }
-
+  .text-normal {
+    text-transform: none;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 16px;
+  }
   .side {
     padding-top: 0;
   }

@@ -76,7 +76,7 @@ const Container = styled.div`
 
   .part-link {
     position: absolute;
-    width: 100%;
+    width: calc(100% - 80px);
     bottom: 10px;
   }
 `;

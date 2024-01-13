@@ -6,6 +6,7 @@ import Home from "./pages/home";
 import Hebergement from "./pages/hebergement";
 import Response from "./pages/response";
 import Programme from "./pages/programme";
+import Location from "./pages/location";
 import styled from "styled-components";
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           <Route path="/programme" element={<Programme />} />
 
           <Route path="/hebergement" element={<Hebergement />} />
-
+          <Route path="/location" element={<Location />} />
           <Route path="/reponse" element={<Response />} />
         </Routes>
       </Router>
