@@ -25,10 +25,7 @@ function Navbar() {
                     <a href="/hebergement">Hébergement</a>
                   </li>
                   <li class="menu-item">
-                    <a href="/location">Comment m'y rendre ?</a>
-                  </li>
-                  <li class="menu-item">
-                    <a href="/hebergement">Liste de mariage</a>
+                    <a href="/liste">Liste de mariage</a>
                   </li>
                   <li class="menu-item">
                     <a

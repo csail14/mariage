@@ -8,6 +8,7 @@ import Response from "./pages/response";
 import Programme from "./pages/programme";
 import Location from "./pages/location";
 import styled from "styled-components";
+import Liste from "./pages/liste";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/hebergement" element={<Hebergement />} />
           <Route path="/location" element={<Location />} />
           <Route path="/reponse" element={<Response />} />
+          <Route path="/liste" element={<Liste />} />
         </Routes>
       </Router>
     </Container>

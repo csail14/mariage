@@ -93,6 +93,7 @@ const Programme = () => {
         </div>
         <div>
           <h2 class="home-sticky-title jour">Dimanche</h2>
+
           <div className="dimanche">
             <aside class="home-sticky-post post has-post-thumbnail sticky ">
               <h3 class="entry-title heure">
@@ -143,6 +144,10 @@ const Programme = () => {
               </div>
             </aside>
           </div>
+          <p className="description-dimanche">
+            Pour les plus téméraires prevoyez des affaires de sports et un
+            maillot de bain pour le dimanche.
+          </p>
         </div>
       </div>
     </Container>
@@ -178,6 +183,11 @@ const Container = styled.div`
     text-align: left;
     font-size: 20px;
     margin-bottom: 40px;
+  }
+
+  .description-dimanche {
+    text-align: center;
+    font-size: 20px;
   }
 
   .dimanche {

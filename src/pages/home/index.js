@@ -41,7 +41,7 @@ const Container = styled.div`
   flex-direction: column;
 
   .main-text {
-    color: #f08c79;
+    color: #7c9f8e;
 
     display: flex;
     justify-content: flex-end;
@@ -78,6 +78,11 @@ const Container = styled.div`
     position: absolute;
     width: calc(100% - 80px);
     bottom: 10px;
+  }
+
+  @media only screen and (max-device-width: 1000px) {
+    justify-content: flex-start;
+    align-items: center;
   }
 `;
 
